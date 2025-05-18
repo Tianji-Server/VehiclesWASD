@@ -28,6 +28,6 @@ jobs:
         run: mvn clean install
       - uses: actions/upload-artifact@v4
         with:
-          name: MCMMO
+          name: Target
           path: |
             **/target/*.jar
